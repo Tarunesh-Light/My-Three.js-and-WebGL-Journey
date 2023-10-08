@@ -1,0 +1,11 @@
+Three Js:
+
+Vite is a built-in tool.It builds the final website
+It'll will do a bunch of other things like optimizations,other language support,cache breaking,source mapping,
+running a local server etc.
+Dependency in npm
+
+NPM is a dependency manager that will fetch the dependencies listed in the package.json file and install them 
+in the node_modules folder
+
+npm run dev -> Runs the server
