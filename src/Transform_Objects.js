@@ -42,7 +42,7 @@ const sizes={
     height:600
 }
 
-//Camera-Perspective Camera
+//Camera-Perspective Camera-Vertical field of view degrees,Width of render/Height of render
 const camera=new THREE.PerspectiveCamera(70,sizes.width/sizes.height)
 scene.add(camera)
 camera.position.z=4 //Move the backwards towards us as the camera default is inside the object
@@ -63,6 +63,8 @@ scene.add(axeshelper);
 
 //Renderer-Setting up canvas
 const canvas=document.querySelector("canvas")
+
+//Renderer displays your beautifully crafted scenes using WebGL
 const renderer=new THREE.WebGLRenderer({
     canvas
 })

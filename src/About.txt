@@ -9,3 +9,14 @@ NPM is a dependency manager that will fetch the dependencies listed in the packa
 in the node_modules folder
 
 npm run dev -> Runs the server
+
+requestAnimationFrame-Used to call a function provided on the next frame.
+
+Camera is an abstract class and cannot be used directly.It has to be inherited from the camera class
+
+Array Camera-Renders scene from multiple cameras on specific areas of Render
+Stereo Camera-The camera mimic the eyes
+Cube Camera-Camera from 6 directions
+Orthographic Camera-Scene without perspective
+Perspective camera-Fixed camera position
+
